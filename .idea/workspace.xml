@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43fd52b6-b247-4a05-8cab-880a04c842ff" name="Default Changelist" comment="首次上传到git">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e0e843d4-8f17-42ce-a601-1420b8385af9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e0e843d4-8f17-42ce-a601-1420b8385af9/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-11-15T061312.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-11-15T061402.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-11-15T061427.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-log/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/ResultCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/result/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/result/ResultCodeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/system/config/Knife4jConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/system/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/system/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/system/exception/SelfDefineException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/target/classes/com/atguigu/system/config/Knife4jConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/target/classes/com/atguigu/system/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/target/classes/com/atguigu/system/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/target/classes/com/atguigu/system/exception/SelfDefineException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guigu-auth-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/base/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysDept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysLoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysOperLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysRoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/vo/AssginMenuVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/vo/AssginRoleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/vo/LoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/vo/MetaVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/vo/RouterVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/vo/SysLoginLogQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/vo/SysOperLogQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/vo/SysPostQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/vo/SysRoleQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/vo/SysUserQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/META-INF/model.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/base/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysDept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysLoginLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysOperLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysPost.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysRoleMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/AssginMenuVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/AssginRoleVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/LoginVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/MetaVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/RouterVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/SysLoginLogQueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/SysOperLogQueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/SysPostQueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/SysRoleQueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/SysUserQueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/service-system.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/ServiceAuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/SysRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/mapper/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/SysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/resources/mapper/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/test/java/com/atguigu/system/test/CodeGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/test/java/com/atguigu/system/test/SysRoleMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/test/java/com/atguigu/system/test/SysRoleServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/classes/META-INF/service-system.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/classes/com/atguigu/system/ServiceAuthApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/classes/com/atguigu/system/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/classes/com/atguigu/system/controller/SysRoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/classes/com/atguigu/system/mapper/SysRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/classes/com/atguigu/system/service/SysRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/classes/com/atguigu/system/service/impl/SysRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/classes/mapper/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/test-classes/META-INF/service-system.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/test-classes/com/atguigu/system/test/CodeGet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/test-classes/com/atguigu/system/test/SysRoleMapperTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/test-classes/com/atguigu/system/test/SysRoleServiceTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - guigu-auth@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - guigu-auth@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\guigu-auth-parent\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2HXfKDxekoookzc9KwVJSTNCg8v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5045977" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\guigu-auth-parent\service-system\src\main\resources\mapper" />
+      <recent name="E:\guigu-auth-parent\common\common-log" />
+      <recent name="E:\guigu-auth-parent\common" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.atguigu.system" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.system.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\guigu-auth-parent\service-system\src\test\java\com\atguigu\system\test" />
+      <recent name="E:\guigu-auth-parent\model\src\main\java\com\atguigu\model\base" />
+      <recent name="E:\guigu-auth-parent\model\src\main\java\com\atguigu\model\vo" />
+      <recent name="E:\guigu-auth-parent\model\src\main\java\com\atguigu\model\system" />
+      <recent name="E:\guigu-auth-parent\model\src\main\java\com\atguigu\model" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8800" />
+          <option name="urlPath" value="/admin/system/sysRole/remove/1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8800" />
+          <option name="urlPath" value="/admin/system/sysRole/findAll" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CodeGet">
+    <configuration name="CodeGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.system.test.CodeGet" />
+      <module name="service-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.system.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysRoleServiceTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.model.system.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.model.system.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.model.system.test.SysRoleServiceTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysRoleServiceTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.model.system.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.model.system.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.model.system.test.SysRoleServiceTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysRoleServiceTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.model.system.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.model.system.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.model.system.test.SysRoleServiceTest" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceAuthApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.system.ServiceAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.model.system.ServiceAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CodeGet" />
+        <item itemvalue="Spring Boot.ServiceAuthApplication (1)" />
+        <item itemvalue="JUnit.SysRoleServiceTest.delete" />
+        <item itemvalue="JUnit.SysRoleServiceTest.update" />
+        <item itemvalue="JUnit.SysRoleServiceTest.add" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43fd52b6-b247-4a05-8cab-880a04c842ff" name="Default Changelist" comment="" />
+      <created>1668436282364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668436282364</updated>
+      <workItem from="1668436286134" duration="5602000" />
+      <workItem from="1668491812298" duration="5547000" />
+      <workItem from="1668497444866" duration="12083000" />
+      <workItem from="1668510754687" duration="8368000" />
+      <workItem from="1668568975596" duration="1028000" />
+      <workItem from="1669636214833" duration="5549000" />
+      <workItem from="1670041552744" duration="958000" />
+      <workItem from="1670057580274" duration="7543000" />
+      <workItem from="1670133082888" duration="5294000" />
+      <workItem from="1671953087267" duration="11193000" />
+      <workItem from="1672062792887" duration="658000" />
+      <workItem from="1672063471065" duration="1064000" />
+      <workItem from="1672064559822" duration="1536000" />
+      <workItem from="1672066130567" duration="323000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="首次上传到git" />
+    <option name="LAST_COMMIT_MESSAGE" value="首次上传到git" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#Project_Structure" timestamp="1668517135101">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="361" y="70" key="#Project_Structure/0.0.1536.816@0.0.1536.816" timestamp="1668517135101" />
+    <state x="326" y="131" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1668496534583">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="326" y="131" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1668496534583" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1668516813147">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1668516813147" />
+    <state x="599" y="126" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1668510633718">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="599" y="126" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.816@0.0.1536.816" timestamp="1668510633718" />
+    <state x="341" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1668497360988">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="341" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.816@0.0.1536.816" timestamp="1668497360988" />
+    <state x="535" y="275" width="465" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1668492380039">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="535" y="275" width="465" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.816@0.0.1536.816" timestamp="1668492380039" />
+    <state x="535" y="297" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1668492365899">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="535" y="297" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.816@0.0.1536.816" timestamp="1668492365899" />
+    <state x="311" y="5" key="CommitChangelistDialog2" timestamp="1672065544209">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="311" y="5" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1672065544209" />
+    <state x="514" y="227" key="FileChooserDialogImpl" timestamp="1672066448148">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="514" y="227" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1672066448148" />
+    <state width="1493" height="120" key="GridCell.Tab.0.bottom" timestamp="1671977208900">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="120" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1671977208900" />
+    <state width="1493" height="120" key="GridCell.Tab.0.center" timestamp="1671977208900">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="120" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1671977208900" />
+    <state width="1493" height="120" key="GridCell.Tab.0.left" timestamp="1671977208900">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="120" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1671977208900" />
+    <state width="1493" height="120" key="GridCell.Tab.0.right" timestamp="1671977208900">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="120" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1671977208900" />
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1671977208900">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1671977208900" />
+    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1671977208900">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1671977208900" />
+    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1671977208900">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1671977208900" />
+    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1671977208900">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1671977208900" />
+    <state width="1493" height="258" key="GridCell.Tab.2.bottom" timestamp="1671977208900">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1671977208900" />
+    <state width="1493" height="258" key="GridCell.Tab.2.center" timestamp="1671977208900">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1671977208900" />
+    <state width="1493" height="258" key="GridCell.Tab.2.left" timestamp="1671977208900">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1671977208900" />
+    <state width="1493" height="258" key="GridCell.Tab.2.right" timestamp="1671977208900">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1671977208900" />
+    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1668496329463">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.816@0.0.1536.816" timestamp="1668496329463" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1672066169043">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1672066169043" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1672065512866">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1672065512866" />
+    <state x="565" y="189" key="chooseDestDirectoryDialog" timestamp="1668495428118">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="565" y="189" key="chooseDestDirectoryDialog/0.0.1536.816@0.0.1536.816" timestamp="1668495428118" />
+    <state x="461" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1672066132424">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="461" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1672066132424" />
+    <state x="564" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1672065523660">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="564" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1672065523660" />
+    <state x="178" y="113" key="new project wizard" timestamp="1668437142486">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="178" y="113" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1668437142486" />
+    <state x="425" y="185" key="run.anything.popup" timestamp="1668511493372">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1668511493372" />
+  </component>
+</project>
